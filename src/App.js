@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { Navbar } from './components';
-
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
+    <div className="welcome_wrapper">
+      Welcome to Referral page
     </div>
   </div>
 );
